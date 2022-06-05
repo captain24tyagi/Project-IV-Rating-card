@@ -1,0 +1,150 @@
+body {
+   background-color: hsl(216, 12%, 8%);
+}
+
+.big-box{
+   height: 450px;
+   width: 450px;
+   align-items: center;
+   background-color: hsl(213, 19%, 18%);
+   margin: 150px 200px 200px 430px;
+   border-radius: 20px;
+   padding: 30px 20px 20px 30px;
+}
+
+.circ1{
+   height: 45px;
+   width: 45px;
+   background-color: hsl(216, 12%, 8%);
+   border-radius: 30px;
+}
+
+.star{
+   padding: 14px 14px 20px 14px;
+   align-items: center;
+   
+}
+
+.answer{
+   font-family: 'Overpass', sans-serif;
+   font-weight: 700;
+   color: white;
+   padding-top: 40px;
+   padding-bottom: 25px;
+   padding-right: 5px;
+   margin-bottom: 0px;
+}
+
+.answer1{
+   font-weight: 400;
+   font-family: 'Overpass', sans-serif;
+   font-size: 16px;
+   line-height: 1.5;
+   padding-right: 25px;
+   color: hsl(216, 12%, 54%);
+   margin-bottom: 5px;
+   margin-right: 5px;
+}
+
+ul{
+   display: flex;
+   justify-content: space-between;
+   list-style: none;
+   padding-left: 1px;
+   padding-top: 10px;
+   margin-bottom: 20px;
+   margin-right: 10px;
+}
+
+ul li button{
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   background-color: rgba(0,0,0,0.15);
+   color: gray;
+   display: flex;
+   content: center;
+   align-items: center;
+   padding-left: 20px;
+   font-weight: 400;
+   border-color: rgba(0,0,0,0.15);
+   border-style: hidden;
+   outline: none;
+}
+
+.lmao{
+   border-radius: 50px;
+   width: 390px;
+   height: 47px;
+   margin-top: 20px;
+   background-color:  hsl(25, 97%, 53%);
+   color: white;
+   font-family: 'Overpass', sans-serif;
+   font-weight: 700;
+}
+ul li button:hover{
+   background-color: hsl(217, 12%, 63%);
+   color: white;
+}
+
+.lmao:hover{
+   background-color:  hsl(0, 0%, 100%);
+   color: hsl(25, 97%, 53%);
+   
+}
+
+.big-box2{
+   height: 450px;
+   width: 450px;
+   align-items: center;
+   background-color: hsl(213, 19%, 18%);
+   margin: 150px 200px 200px 430px;
+   border-radius: 20px;
+   padding: 30px 20px 20px 30px;
+}
+
+.books{
+   margin-left: -2px;
+   margin-top: 20px;
+}
+
+.content{
+   height: 38px;
+   width: 240px;
+   text-align: center;
+   margin-left: 70px;
+   margin-top: 30px;
+   padding-top: 8px;
+   background-color: hsl(216, 12%, 8%);
+   color: hsl(25, 97%, 53%);
+   border-radius: 30px;
+   font-weight: 400;
+   font-family: 'Overpass', sans-serif;
+}
+
+.Thanks{
+   height: 38px;
+   width: 240px;
+   text-align: center;
+   margin-left: 70px;
+   margin-top: 30px;
+   color: white;
+   font-weight: 700;
+   font-size: 30px;
+   font-family: 'Overpass', sans-serif;
+}
+
+.para{
+   text-align: center;
+   margin-right: 20px;
+   margin-left: 10px;
+   color: hsl(216, 12%, 54%);
+   font-weight: 400;
+   font-family: 'Overpass', sans-serif;
+}
+
+.big-box2{
+   display: none;
+   text-align: center;
+   
+}
